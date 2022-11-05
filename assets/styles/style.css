@@ -1,35 +1,56 @@
 body {
   text-align: center;
-  /* max-width: 60%; */
-  /* margin-left: 20%; */
-  margin-top: 0;
+  margin: 0;
+  justify-content: center;
 }
 
-nav {
+.nav {
   display: flex;
   flex-wrap: nowrap;
   background-color: #fff;
   height: 3rem;
-  width: 100%;
+  width: 100vw;
   position: fixed;
+  margin-top: 0;
   font-size: 1.8rem;
-  gap: 10rem;
+  gap: 27%;
+  justify-content: center;
+}
+
+.fa-solid {
+  margin-top: .4rem;
+}
+
+.whole {
+  background-color: red;
+  max-width: 1224px;
+  margin: auto;
+  padding-top: 7.5rem;
 }
 
 .food-section {
-  background-color: aliceblue;
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 5rem 0;
-  text-align: center;
+  /* background-color: aliceblue; */
+ /*  display: flex;
+  flex-wrap: wrap; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  justify-content: center;
+}
+
+.food-figure {
+  width: 25rem;
+  margin: auto;
+}
+
+.food-figure img {
+  width: 25rem;
 }
 
 .change-page {
   display: flex;
-  width: 15rem;
-  margin: 5rem 42%;
+  width: fit-content;
+  margin: 5rem auto;
   text-align: center;
 }
 
@@ -37,7 +58,6 @@ nav {
   border: none;
   background-color: #fff;
   padding: 1rem;
-  background-size: auto;
 }
 
 .change-page-btn:hover {
@@ -51,7 +71,13 @@ nav {
 }
 
 .about-me {
+  justify-content: center;
   height: auto;
+}
+
+.about-me img {
+  width: 90vmin;
+  margin-bottom: 1rem;
 }
 
 .about-me header {
@@ -67,22 +93,21 @@ nav {
 
 .line2 {
   margin: 4rem 0;
-  max-width: 70rem;
-  position: relative;
-  justify-content: center;
 }
 
 footer {
   justify-content: center;
-  text-align: left;
+  
   display: flex;
-  box-sizing: inherit;
   flex-wrap: wrap;
-  padding: 0 12rem;
+
+  /* padding: 0 auto; */
+
+  column-gap: 5rem;
 }
 
 .footer-block {
-  /* text-align: left; */
+  text-align: left;
   max-width: 25rem;
 }
 
