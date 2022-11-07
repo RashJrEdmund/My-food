@@ -10,10 +10,7 @@ body {
   background-color: #fff;
   height: 4.3rem;
   width: 100vw;
-  position: fixed;
-
-  /* font-size: 1.8rem; */
-  
+  position: fixed;  
   font-size: 1.5em;
   gap: 28.5%;
   justify-content: center;
@@ -37,25 +34,29 @@ body {
   max-width: 1224px;
   margin: auto;
   padding-top: 7.5rem;
+  background-color: yellowgreen;
 }
 
 .food-section {
   /* background-color: aliceblue; */
- /*  display: flex;
+  /* display: flex;
   flex-wrap: wrap; */
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  /* grid-template-columns: repeat(4, minmax(50%, 1fr)); */
+  /* grid-template-columns: 20vw 20vw 20vw 20vw; */
   justify-content: center;
+  background-color: aqua;
+  max-width: 1224px;
 }
 
 .food-figure {
-  width: 21.0rem;
-  margin: auto;
+  width: 20vw;
+  background-color: red;
 }
 
 .food-figure img {
-  width: 21.0rem;
+  width: 100%;
 }
 
 .change-page {
@@ -109,15 +110,11 @@ body {
 }
 
 footer {
-  justify-content: center;
-  
-  /* display: flex;
-  flex-wrap: wrap; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  /* padding: 0 auto; */
-
-  column-gap: 11rem;
+  column-gap: 10rem;
+  width: 90%;
+  margin: auto;
 }
 
 .footer-block {
@@ -158,4 +155,10 @@ footer {
   background-size: contain;
   width: fit-content;
   height: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .food-section {
+
+  }
 }
