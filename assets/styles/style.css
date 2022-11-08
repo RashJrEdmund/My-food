@@ -135,6 +135,11 @@ footer {
   opacity: 0.4;
 }
 
+.blog-post-img {
+  width: 100px;
+  height: 100px;
+}
+
 .blog-post1:hover {
   background: #9090907c;
 }
