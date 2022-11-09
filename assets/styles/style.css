@@ -10,7 +10,7 @@ body {
   background-color: #fff;
   height: 4.3rem;
   width: 100vw;
-  position: fixed;  
+  position: fixed;
   font-size: 1.5em;
   gap: 28.5%;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
 }
 
 .menu {
-  margin-top: .4rem;
+  margin-top: 0.4rem;
 }
 
 .menu:hover {
