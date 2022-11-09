@@ -25,4 +25,4 @@
 
 ## CONTRIBUTION
     Contributions, issues, and feature requests are welcome!
-    Feel free to check the [issues page](link to issue page on github).
+    Feel free to check the  by clicking this link ttps://github.com/RashJrEdmund/My-food/issues
