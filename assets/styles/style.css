@@ -5,29 +5,27 @@ body {
 }
 
 .nav {
+  background-color: #fff;
   display: flex;
   flex-wrap: nowrap;
-  background-color: #fff;
   height: 4.3rem;
   width: 100vw;
   position: fixed;
   font-size: 1.5em;
   gap: 28.5%;
   justify-content: center;
-}
-
-.nav-bar-text {
-  margin-top: 1rem;
+  align-items: center;
 }
 
 .menu {
-  margin-top: 0.4rem;
+  height: fit-content;
+  width: fit-content;
+  padding: 1.4rem;
 }
 
 .menu:hover {
   background-color: #9090907c;
-  padding: 1rem;
-  margin-top: -1rem;
+  /* padding: 1rem; */
 }
 
 .whole {
