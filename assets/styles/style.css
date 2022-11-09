@@ -20,11 +20,11 @@ body {
   margin-top: 1rem;
 }
 
-.fa-solid {
+.menu {
   margin-top: .4rem;
 }
 
-.fa-solid:hover {
+.menu:hover {
   background-color: #9090907c;
   padding: 1rem;
   margin-top: -1rem;
@@ -34,35 +34,52 @@ body {
   max-width: 1224px;
   margin: auto;
   padding-top: 7.5rem;
-  background-color: yellowgreen;
 }
 
-.food-section {
-  /* background-color: aliceblue; */
-  /* display: flex;
-  flex-wrap: wrap; */
+/* .food-section-cover {
+  width: 100%;
+  margin: auto;
+} */
 
+.food-section {
   display: grid;
-  /* grid-template-columns: repeat(4, minmax(50%, 1fr)); */
-  /* grid-template-columns: 20vw 20vw 20vw 20vw; */
-  justify-content: center;
-  background-color: aqua;
-  max-width: 1224px;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: auto;
+}
+
+.food-section-column {
+  padding-left: 0 10px;
+  display: flex;
+  justify-items: center;
+  gap: 10px;
 }
 
 .food-figure {
-  width: 20vw;
-  background-color: red;
+  width: 90%;
 }
 
 .food-figure img {
   width: 100%;
+  height: max-content;
+}
+
+.food-figure header {
+  font-size: 1.5rem;
 }
 
 .change-page {
   display: flex;
   width: fit-content;
   margin: 5rem auto;
+  text-align: center;
+}
+
+.change-page-icons {
+  border: none;
+  background-color: #fff;
+  align-items: center;
+  position: relative;
   text-align: center;
 }
 
@@ -135,9 +152,15 @@ footer {
   opacity: 0.4;
 }
 
-.blog-post-img {
-  width: 100px;
-  height: 100px;
+.blog-post1 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.blog-post1 img {
+  width: 70px;
+  height: 70px;
 }
 
 .blog-post1:hover {
@@ -163,7 +186,8 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  .food-section {
-
+  .food-section-column {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
