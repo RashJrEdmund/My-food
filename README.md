@@ -1,7 +1,7 @@
 # MY_FOOD
 
 ## Project Review
-![home](assets/images/overview.png)
+![home page](assets/images/overview.png)
 
 ## About
 This project was a simple assignment given to test our still growing skills. it's about implement a beautiful food page showing varying food
