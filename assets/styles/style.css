@@ -4,23 +4,32 @@ body {
   justify-content: center;
 }
 
+.nav-container {
+  position: sticky;
+  top: 0;
+}
+
 .nav {
   background-color: #fff;
   display: flex;
   flex-wrap: nowrap;
-  height: 4.3rem;
-  width: 100vw;
-  position: fixed;
-  font-size: 1.5em;
-  gap: 28.5%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: 4.3rem;
+  margin: auto;
+  width: 100%;
+  max-width: 1250px;
+  font-size: 1.5em;
+}
+
+.nav-bar-text {
+  width: fit-content;
 }
 
 .menu {
   height: fit-content;
   width: fit-content;
-  padding: 1.4rem;
+  padding: 1.4rem 1rem;
 }
 
 .menu:hover {
@@ -30,7 +39,7 @@ body {
 .whole {
   max-width: 1224px;
   margin: auto;
-  padding-top: 7.5rem;
+  padding-top: 4rem;
 }
 
 .food-section {

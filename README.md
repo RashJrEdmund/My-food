@@ -1,13 +1,10 @@
 # MY_FOOD
 
-## AUTHOR
-**RASH**
+## Project Review
+![home](assets/images/overview.png)
 
 ## About
 This project was a simple assignment given to test our still growing skills. it's about implement a beautiful food page showing varying food
-
-## OPENNING THE PROGRAM
-It is as simple as clicking on it's link, or searching this URL on your browser "https://rashjredmund.github.io/My-food/"
 
 ## BUILT WITH
 This page is basically built with just
@@ -21,14 +18,23 @@ This page is basically built with just
 
 ## CLONE PROJECT
 * open your terminal
-* browse to where you want to clone the repository
-* type the and run this comand "git clone git@github.com:RashJrEdmund/My-food.git"
-* edit it as you please
+* type and run this comand (`git clone git@github.com:RashJrEdmund/My-food.git`)
+* change to the project directory by entering: cd My-food
 * Note That: all this is done using your Linux terminal or git-bash for windows users.
+
+## Command line steps
+
+- $ git clone `https://github.com/RashJrEdmund/My-food`
+- $ `cd My-food`
+- $ `git checkout feature/body`
 
 ## CONTRIBUTION
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/RashJrEdmund/My-food/issues).
+Feel free to check the [issues page](`https://github.com/RashJrEdmund/My-food/issues`).
+
+## AUTHOR
+**RASH**
+- GitHub: [@RashJrEdmund](https://github.com/RashJrEdmund/My-food)
 
 ## License
-This project is [w3schoole](./LICENSE) licensed. This project was made by "RASH"
+This project is [w3school](./LICENSE) licensed. This project was made by "RASH"
