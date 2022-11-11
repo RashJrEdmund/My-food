@@ -22,7 +22,7 @@ This page is basically built with just
 * change to the project directory by entering: cd My-food
 * Note That: all this is done using your Linux terminal or git-bash for windows users.
 
-## Command line steps
+## Command-line steps
 
 - $ git clone `https://github.com/RashJrEdmund/My-food`
 - $ `cd My-food`
