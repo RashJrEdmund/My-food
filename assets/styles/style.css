@@ -120,8 +120,8 @@ body {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  column-gap: 10rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
   width: 90%;
   margin: auto;
 }
@@ -188,6 +188,10 @@ footer {
 @media only screen and (max-width: 600px) {
   .food-section-column {
     display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  footer {
     grid-template-columns: 1fr;
   }
 }
