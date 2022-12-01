@@ -76,18 +76,15 @@ body {
   text-align: center;
 }
 
-.change-page-icons {
-  border: none;
-  background-color: #fff;
-  align-items: center;
-  position: relative;
-  text-align: center;
-}
-
 .change-page-btn {
   border: none;
   background-color: #fff;
   padding: 1rem;
+}
+
+.current-page {
+  background-color: #000;
+  color: #fff;
 }
 
 .change-page-btn:hover {
