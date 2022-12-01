@@ -209,4 +209,8 @@ footer {
   footer {
     grid-template-columns: 1fr;
   }
+
+  .popular-box {
+    margin: 2px 2px 0;
+  }
 }
