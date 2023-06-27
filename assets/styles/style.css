@@ -154,8 +154,9 @@ footer {
 .blog-post1 {
   padding-left: 0.5rem;
   display: flex;
-  gap: 0.5rem;
+  flex-direction: row;
   align-items: center;
+  gap: 10px;
 }
 
 .blog-post1 img {
@@ -201,7 +202,16 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .food-figure img {
+    width: 100%;
+    max-height: 60vh;
+  }
+
   footer {
     grid-template-columns: 1fr;
+  }
+
+  .popular-box {
+    margin: 2px 2px 0;
   }
 }
